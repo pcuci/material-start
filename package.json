@@ -1,8 +1,8 @@
 {
   "name": "superflat-admin",
   "version": "0.1.0",
-  "scripts": {    
-    "dev": "lite-server"
+  "scripts": {
+    "dev": "lite-server -c bs-config.json"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
@@ -10,7 +10,10 @@
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "^0.8.0",
     "grunt-csssplit": "^0.4.0",
-    "lite-server": "2.2.2"
+    "lite-server": "2.2.2",
+    "grunt-contrib-less": "1.4",
+    "grunt-contrib-watch": "1.0",
+    "grunt-angular-templates": "1.1"
   },
   "dependencies": {
     "angular-animate": "^1.4.3",
